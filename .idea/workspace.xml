@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="443be4cf-ee3c-4abd-adc4-0f1c43cafa5b" name="Changes" comment="" />
+    <list default="true" id="443be4cf-ee3c-4abd-adc4-0f1c43cafa5b" name="Changes" comment="código diagramaUML" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2f8YyVKc31MUyDG7HkEThSGpfbJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,10 +66,141 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713184429150</updated>
+      <workItem from="1713184430462" duration="2474000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1713184515594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713184515594</updated>
+    </task>
+    <task id="LOCAL-00002" summary="clase abstracta base Elemento">
+      <option name="closed" value="true" />
+      <created>1713184905148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713184905148</updated>
+    </task>
+    <task id="LOCAL-00003" summary="clase que representa un elemento simple">
+      <option name="closed" value="true" />
+      <created>1713184931023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713184931023</updated>
+    </task>
+    <task id="LOCAL-00004" summary="clase compuesta que representa un kit">
+      <option name="closed" value="true" />
+      <created>1713184949745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713184949745</updated>
+    </task>
+    <task id="LOCAL-00005" summary="terminar clase compuesta que representa un kit">
+      <option name="closed" value="true" />
+      <created>1713185162550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185162550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="link al repositorio en readme">
+      <option name="closed" value="true" />
+      <created>1713185265517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185265517</updated>
+    </task>
+    <task id="LOCAL-00007" summary="clase main">
+      <option name="closed" value="true" />
+      <created>1713185313541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185313541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="crear elementos y kit, agregar elementos a kit">
+      <option name="closed" value="true" />
+      <created>1713185449648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185449648</updated>
+    </task>
+    <task id="LOCAL-00009" summary="calcular precio kit">
+      <option name="closed" value="true" />
+      <created>1713185503908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185503908</updated>
+    </task>
+    <task id="LOCAL-00010" summary="explicación clase abstracta Elemento">
+      <option name="closed" value="true" />
+      <created>1713186404388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186404388</updated>
+    </task>
+    <task id="LOCAL-00011" summary="explicación clase ElementoSimple">
+      <option name="closed" value="true" />
+      <created>1713186503858</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186503858</updated>
+    </task>
+    <task id="LOCAL-00012" summary="explicación clase kit">
+      <option name="closed" value="true" />
+      <created>1713186670175</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186670175</updated>
+    </task>
+    <task id="LOCAL-00013" summary="explicación clase Main">
+      <option name="closed" value="true" />
+      <created>1713186794559</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186794559</updated>
+    </task>
+    <task id="LOCAL-00014" summary="código diagramaUML">
+      <option name="closed" value="true" />
+      <created>1713186862590</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186862590</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <MESSAGE value="clase abstracta base Elemento" />
+    <MESSAGE value="clase que representa un elemento simple" />
+    <MESSAGE value="clase compuesta que representa un kit" />
+    <MESSAGE value="terminar clase compuesta que representa un kit" />
+    <MESSAGE value="link al repositorio en readme" />
+    <MESSAGE value="clase main" />
+    <MESSAGE value="crear elementos y kit, agregar elementos a kit" />
+    <MESSAGE value="calcular precio kit" />
+    <MESSAGE value="explicación clase abstracta Elemento" />
+    <MESSAGE value="explicación clase ElementoSimple" />
+    <MESSAGE value="explicación clase kit" />
+    <MESSAGE value="explicación clase Main" />
+    <MESSAGE value="código diagramaUML" />
+    <option name="LAST_COMMIT_MESSAGE" value="código diagramaUML" />
   </component>
 </project>

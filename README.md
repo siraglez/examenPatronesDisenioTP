@@ -17,4 +17,9 @@ link al repositorio: https://github.com/siraglez/examenPatronesDisenioTP.git
 
 ## Clase (`Kit`):
 
+- Esta clase extienede de la clase `Elemento`y representa un kit, que es un grupo de elementos de mobiliario, por lo que es compuesta.
+- Tiene un atributo `elementos` que es una lista de elementos que componen el kit.
+- Su constructor llama al constructor de la clase base para inicializar el código del kit con el valor proporcionado (el precio se establece en 0 ya que se calculará dinámicamente más adelante).
+- Implementa el método `calcularPrecio()` que calcula el precio total del kit, sumando los precios de todos los elementos que contiene y aplicando además el descuento del 10% correspondiente a los kits.
+
 ## Clase (`Main`):

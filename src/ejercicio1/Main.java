@@ -11,5 +11,7 @@ public class Main {
         kit.agregarElemento(elemento1);
         kit.agregarElemento(elemento2);
 
+        //Calcular y mostrar el precio del kit
+        System.out.println("Precio del kit: $" + kit.calcularPrecio());
     }
 }

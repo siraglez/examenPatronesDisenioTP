@@ -23,3 +23,8 @@ link al repositorio: https://github.com/siraglez/examenPatronesDisenioTP.git
 - Implementa el método `calcularPrecio()` que calcula el precio total del kit, sumando los precios de todos los elementos que contiene y aplicando además el descuento del 10% correspondiente a los kits.
 
 ## Clase (`Main`):
+
+- Esta clase es el punto de entrada del programa. Es muy simple ya que únicamente muestra el funcionamiento del programa, por lo que el usuario no puede interactuar para decidir.
+- En el método `main()`, se crean dos elementos simples con precios y códigos específicos.
+- Luego, se crea un kit y se le agregan los dos elementos simples.
+- Finalmente, se calcula el precio del kit y se muestra en pantalla.

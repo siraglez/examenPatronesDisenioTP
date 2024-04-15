@@ -11,6 +11,10 @@ link al repositorio: https://github.com/siraglez/examenPatronesDisenioTP.git
 
 ## Clase (`ElementoSimple`):
 
+- Esta clase extiende la clase `Elemento`y representa un elemento simple de mobiliario.
+- Su cosntructor llama al constructor de la clase base para inicializar el precio y el código del elemento.
+- Implementa el método abstracto `calcularPrecio()`que únicamente devuelve el precio del elemento.
+
 ## Clase (`Kit`):
 
 ## Clase (`Main`):

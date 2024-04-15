@@ -1,0 +1,33 @@
+@startuml
+
+abstract class Elemento {
+    -precio: double
+    -codigo: int
+
+    +Elemento(precio: double, codigo: int)
+    +getPrecio(): double
+    +getCodigo(): int
+    +calcularPrecio(): double
+}
+
+class ElementoSimple {
+    +ElementoSimple(precio: double, codigo: int)
+    +calcularPrecio(): double
+}
+
+class Kit {
+    -elementos: List<Elemento>
+
+    +Kit(codigo: int)
+    +agregarElemento(elemento: Elemento): void
+    +eliminarElemento(elemento: Elemento): void
+    +calcularPrecio(): double
+}
+
+Elemento <|-- ElementoSimple
+Elemento <|-- Kit
+
+Main --> ElementoSimple
+Main --> Kit
+
+@enduml
